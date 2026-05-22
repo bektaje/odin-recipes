@@ -1,0 +1,59 @@
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    z-index: -1;
+}
+
+body {
+    background-color: rgb(12, 12, 12);
+    color:white;
+    background-image: url(../images/background.png);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 5px;;
+}
+
+p {
+    font-size:20px;
+}
+h2 {
+    font-size:25px;
+}
+.lasagnepicture {
+    width:250px;
+    height:150px; 
+}
+a {
+    font-size:20px;
+    color:white;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.content {
+    display:flex;
+    gap: 70px;
+}
+.right {
+    display:flex;
+    flex-direction: row;
+    gap:200px;
+    align-items: center;
+}
+ul {
+    color:white;
+    font-weight: bold;
+}

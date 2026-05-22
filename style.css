@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.flex{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.picture {
+    margin-left:50px;
+    height:auto;
+    width:350px;
+    
+}
+
+h1 {
+    text-align: center;
+    font-size:70px;
+    margin-top: 10px;
+    color:white;
+}
+
+.lasagne {
+    display:block;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.pizza {
+    display:block;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.brownies {
+    display:block;
+    font-size: larger;
+    font-size: 50px;
+}
